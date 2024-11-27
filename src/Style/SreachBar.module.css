@@ -1,0 +1,37 @@
+.searchBarMain {
+    width: 50%;
+    height: 10%;
+    border: 0px;
+    border-radius: 1.5em;
+    float: left;
+    margin-left: 4.5%;
+    margin-top: 3.9%;
+    background-color: #DADADA;
+}
+
+.searchBarMain input {
+    border: 0px;
+    width: 85%;
+    height: 100%;
+    font-family: Georgia, serif;
+    color: #80000000;
+    background-color: #DADADA;
+    font-size: 1em;
+    padding-left: 1.5em;
+    float: left;
+}
+
+.searchBarMain input:focus {
+    outline: none;
+}
+
+.searchBarMain button {
+    width: 10%;
+    height: 100%;
+    background-color: #DADADA;
+    background-image: url('../Pic/SreachBarPic/Vector@1x-9.png');
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+}

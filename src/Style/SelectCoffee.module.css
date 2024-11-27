@@ -1,0 +1,163 @@
+.SelectCoffeeMain {
+    width: 60%;
+    height: 72%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.SelectCoffeeName {
+    font-size: 400%;
+    font-family: Georgia, serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.SelectCoffeeText {
+    font-size: 90%;
+    font-family: Georgia, serif;
+}
+
+.SelectCoffeeTitle {
+    font-size: small;
+    color: grey;
+    font-family: Georgia, serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.SelectCoffeeSIZEIcon {
+    height: 5.5em;
+    width: 5em;
+    float: left;
+    border-radius: 1em;
+    margin-left: 2%;
+    position: relative;
+    box-shadow: 0px 0px 20px 1px rgba(150, 150, 150, 0.4);
+    margin-bottom: 1%;
+}
+
+.SelectCoffeeSIZEIcon p {
+    font-size: small;
+    font-family: Georgia, serif;
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.SelectCoffeeSIZEIcon input {
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.2em;
+    background-image: url('../Pic/SelectCoffeePic/Vector@1x-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.SelectCoffeeSIZEIcon input:checked {
+    background-image: url('../Pic/SelectCoffeePic/Vector@1x-2.png');
+    background-color: #DAC6B6;
+    border: 2px solid rgb(40, 40, 40);
+}
+
+.SelectCoffeeEXTRAIcon {
+    height: 2em;
+    width: 5em;
+    position: relative;
+    float: left;
+    margin-left: 2%;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px 1px rgba(150, 150, 150, 0.4);
+    margin-bottom: 2%;
+}
+
+.SelectCoffeeEXTRAIcon input {
+    -webkit-appearance: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.2em;
+    text-align: center;
+    /* margin-left: ; */
+    position: absolute;
+    z-index: 1;
+}
+
+.SelectCoffeeEXTRAIcon input:checked {
+    background-color: #DAC6B6;
+    border: 1.5px solid black;
+}
+
+.SelectCoffeeEXTRAIcon input:checked~p {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.SelectCoffeeEXTRAIcon p {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-size: smaller;
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    text-align: center;
+    line-height: 2.2em;
+    font-family: Georgia, serif;
+}
+
+.CoffeePrice {
+    font-size: 200%;
+    float: left;
+    margin-left: 6%;
+}
+
+.SelectCoffeeButton {
+    margin-top: 0.6%;
+    margin-left: 5%;
+    float: left;
+    width: 5em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: #DAC6B6;
+    box-shadow: 0px 0px 20px 1px rgba(150, 150, 150, 0.4);
+
+}
+
+.SelectCoffeeButton button {
+    width: 40%;
+    height: 100%;
+    color: #DAC6B6;
+    border: 0;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.SelectCoffeeButton p {
+    width: 20%;
+    float: left;
+    height: 100%;
+    line-height: 2em;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.OrderButton {
+    width: 30%;
+    border-radius: 2em;
+    color: aliceblue;
+    height: 10%;
+    border: 0;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: rgba(205, 65, 38, 0.8);
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 20px 1px rgba(150, 150, 150, 0.4);
+
+}

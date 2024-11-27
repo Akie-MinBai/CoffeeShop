@@ -1,0 +1,34 @@
+{
+    "index": [
+        {
+            "url": "./CoffeeListPic/CinnamonAndCocoa.png",
+            "price": "99.00",
+            "name": "Cinnamon And Cocoa"
+        },
+        {
+            "url": "./CoffeeListPic/Coco&VanillaCream.png",
+            "price": "199.00",
+            "name": "Coco & Vanilla Cream"
+        },
+        {
+            "url": "./CoffeeListPic/BurstingBlueberry.png",
+            "price": "120.00",
+            "name": "Bursting Blueberry"
+        },
+        {
+            "url": "./CoffeeListPic/DalgonaMacha.png",
+            "price": "150.00",
+            "name": "Dalgona Macha"
+        },
+        {
+            "url": "./CoffeeListPic/DrizzledWithCaramel.png",
+            "price": "199.00",
+            "name": "Drizzled With Caramel"
+        },
+        {
+            "url": "./CoffeeListPic/WhippedChocolate.png",
+            "price": "99.00",
+            "name": "Whipped Chocolate"
+        }
+    ]
+}

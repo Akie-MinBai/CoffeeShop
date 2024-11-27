@@ -1,0 +1,12 @@
+.backGroundMain {
+    width: 40%;
+    height: 70%;
+    background-image: url('../Pic/BackGroundPic/Image\ coffee@1x.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 13%;
+    margin-left: -10%;
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,27 @@
+.BackToMenuMain {
+    width: 20%;
+    height: 10%;
+    margin-left: 4.5%;
+    margin-top: 2%;
+    position: relative;
+    float: left;
+}
+
+.BackToMenuTag {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-image: url('../Pic/BackToMenuPic/Vector@1x.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    margin-right: 5%;
+}
+
+.BackToMenuText {
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+}
